@@ -9,7 +9,6 @@ const curry = (fn, ...args) => {
   };
 };
 
-// 测试：
 const add = (a, b, c) => a + b + c;
 const a = curry(add, 1);
 console.log(a(2, 3));
